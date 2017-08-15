@@ -43,12 +43,14 @@ export default {
 </style>
 
 <style lang="sass">
+  $background-color: #303030;
   $font-list: 'Raleway', sans-serif;
+  $text-color: #00BFFF;
 
   #wrapper
     height: 100%;
     background: #303030;
-    color: #00BFFF;
+    color: $text-color;
     font-family: 'Raleway', sans-serif;
   #title
     height: 1.75em;
